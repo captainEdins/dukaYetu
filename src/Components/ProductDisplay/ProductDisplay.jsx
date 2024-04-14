@@ -22,7 +22,7 @@ export default function ProductDisplay(props) {
             </div>
             <div className="product-display-right">
                 <h1>{product.name}</h1>
-                <div className="product-display-right-star">
+                <div className="product-display-right-stars">
                     <img src={star_icon} alt=""/>
                     <img src={star_icon} alt=""/>
                     <img src={star_icon} alt=""/>
@@ -41,15 +41,11 @@ export default function ProductDisplay(props) {
                 <div className="product-display-right-description">
                     Introducing the Horizon Blue Linen Shirt: a seamless blend of sophistication and comfort. Crafted
                     from high-quality linen fabric in a striking horizon blue hue, this shirt offers luxurious
-                    breathability, perfect for any occasion. Its tailored fit flatters the silhouette while ensuring
-                    freedom of movement, and the classic button-down collar adds a timeless charm. Whether for a casual
-                    brunch or a sophisticated soirée, this shirt is sure to make a lasting impression. Pair it with
-                    tailored trousers for a polished look or dress it down with denim for a more relaxed vibe—a
-                    versatile staple for any wardrobe.
+                    breathability, perfect for any occasion.
                 </div>
                 <div className="product-display-right-size">
                     <h1>Select Size</h1>
-                    <div className="product-display-right-size">
+                    <div className="product-display-right-sizes">
                         <div>S</div>
                         <div>M</div>
                         <div>L</div>
