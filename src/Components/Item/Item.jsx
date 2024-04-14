@@ -9,7 +9,7 @@ export default function Item(props){
     return(
 
       <div className='item'>
-          <Link to={`/product/${items.id}`}><img src={items.image} alt=""/></Link>
+          <Link to={`/product/${items.id}`}><img onClick={window.scrollTo(0,0)} src={items.image} alt=""/></Link>
           <p>{items.name}</p>
           <div className="item-prices">
               <div className="item-price-new">
