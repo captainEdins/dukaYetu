@@ -27,8 +27,7 @@ export default function ShopCategory(props) {
                 {all_product.map((item, index) => {
 
                     return props.category === item.category ?
-                        <Item key={index} id={item.id} name={item.name} image={item.image} new_price={item.new_price}
-                              old_price={item.old_price}/> : null;
+                        <Item key={index}  items={item}/> : null;
 
                 })}
             </div>
