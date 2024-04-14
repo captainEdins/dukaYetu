@@ -13,7 +13,7 @@ export default function Hero (){
                 <div>
                     <div className="hand-hand-icon">
                         <p>new</p>
-                        <img src={hand_icon} alt=""/>
+                        <img src={hand_icon}  alt=""/>
                     </div>
                     <p>collections</p>
                     <p>for everyone</p>

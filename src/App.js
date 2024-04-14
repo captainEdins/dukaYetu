@@ -8,6 +8,7 @@ import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer";
 
+
 export default function App() {
     return (
         <div>
@@ -17,7 +18,7 @@ export default function App() {
                     <Route path="/"  element={<Shop/>}/>
                     <Route path="/men"  element={<ShopCategory category = "men"/>}/>
                     <Route path="/women"  element={<ShopCategory category = "women"/>}/>
-                    <Route path="/kids"  element={<ShopCategory category = "kids"/>}/>
+                    <Route path="/kids"  element={<ShopCategory category = "kid"/>}/>
                     <Route path="/product"  element={<ProductPage/>}>
                         <Route path=':productId' element={<ProductPage/>}/>
                     </Route>
