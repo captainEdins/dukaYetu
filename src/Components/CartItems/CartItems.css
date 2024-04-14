@@ -34,3 +34,61 @@
     border: 2px solid #ebebeb;
     background: white;
 }
+.cart-item-down{
+    display: flex;
+    margin: 100px 0;
+}
+.cart-item-total{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cart-item-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.cart-item-total button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart-item-promo-code{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cart-item-promo-code p{
+    color: #555;
+}
+.cart-item-promo-box{
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+}
+.cart-item-promo-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+.cart-item-promo-box button{
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
